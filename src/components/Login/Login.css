@@ -1,0 +1,348 @@
+.login__container{
+  position: absolute;
+  width: 1044px;
+  height: 600px;
+  left: 160px;
+  top: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.3);
+  border-radius: 14px;
+}
+
+.login__card1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 302px;
+  height: 467px;
+  left: 100px;
+  top: 100px;
+}
+
+.login__titulo{
+  position: static;
+  width: 281px;
+  height: 24px;
+  left: 10.5px;
+  top: 159px;
+  
+}
+
+.login__titulo > h1{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #C94A21;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+img{
+  width: 144px;
+  height: 144px;
+}
+
+.login__email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  position: static;
+  width: 302px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  background: #E5E5E5;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px -10px;
+}
+
+.login__email > input{
+  position: static;
+  width: 300px;
+  height: 40px;
+  left: 0px;
+  top: 22.41%;
+  bottom: 22.41%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #6D6D6D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 128px 10px;
+  background: transparent;
+  border: 0;
+}
+
+.login__senha{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  position: static;
+  width: 302px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+  background: #E5E5E5;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px ;
+}
+
+
+.login__senha > input{
+  position: static;
+  width: 300px;
+  height: 40px;
+  left: 0px;
+  top: 22.41%;
+  bottom: 22.41%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #6D6D6D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 128px;
+  background: transparent;
+  border: 0;
+}
+
+.login__senha > img{
+  position: static;
+  width: 25px;
+  height: 25px;
+  left: 245px;
+  top: 2px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 128px;
+  background: transparent;
+}
+
+.login__senha .icon2{
+  position: absolute;
+  left: 47%;
+  right: 0%;
+  top: 52%;
+  bottom: 0%;
+
+}
+
+.login__email > img{
+  position: static;
+  width: 25px;
+  height: 25px;
+  left: 245px;
+  top: 2px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 128px;
+}
+
+.login__email .icon1{
+  position: absolute;
+  left: 47%;
+  right: 0%;
+  top: 39%;
+  bottom: 0%;
+  background: transparent;
+}
+
+.login__entrar > button{
+  position: static;
+  width: 302px;
+  height: 45px;
+  right: 0px;
+  top: 138px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 20px 0px 100px;
+  background: #C94A21;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+
+.login__img{
+  position: absolute;
+  width: 1158px;
+  height: 625.88px;
+  left: 525px;
+  top: 0px;
+  background: url(../../assets/logoInicial.jpg) no-repeat;
+  border-radius: 0px 14px 14px 0px
+}
+
+
+.login__card2{
+  position: absolute;
+  width: 522px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #C94A21;
+  opacity: 0.9;
+  box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 14px 14px 0px;
+}
+
+.login__card2 > h1{
+  position: static;
+  width: 394px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 180px 60px -5px ;
+  background:#C94A21;
+}
+
+.login__card2 > p{
+  position: static;
+  width: 334px;
+  height: 105px;
+  left: 30px;
+  top: 150px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 132%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 100px ;
+  background: #C94A21;
+}
+
+
+
+.check__box{
+  position: static;
+  left: -20%;
+  right: 10%;
+  top: 80%;
+  bottom: 2%;
+  background: #C94A21;
+}
+
+.login__lembrete{
+  position: absolute;
+  left: 20px;
+  top: 80%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #C94A21;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px -20px 0px ;
+  
+  
+}
+.login__recuperar{
+  position: absolute;
+  width: 108px;
+  height: 20px;
+  left: 80%;
+  top: 80%;
+}
+.recuperar__senha{
+  position: absolute;
+  left: -50px;
+  top: -10px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: right;
+  color: #C94A21;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 2px 10px;
+  text-decoration: none;
+}
+
+.login__cadastro{ 
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  left: -15px;
+  top: 20px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #C94A21;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
